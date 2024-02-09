@@ -20,8 +20,8 @@ public class Appconfig {
 
     @Bean
     public DataSource dataSource() {
-        return new DriverManagerDataSource("jdbc:mysql://localhost:3306/spring-transactional",
-                "root", "F#7b9/Db");
+        return new DriverManagerDataSource("jdbc:mysql://10.1.1.152:3306/spring-transactional",
+                "root", "root");
     }
 
     @Bean
